@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr 22 13:25:21 2024
+# Process ID: 9556
+# Current directory: E:/project_82
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5952 E:\project_82\project_82.xpr
+# Log file: E:/project_82/vivado.log
+# Journal file: E:/project_82\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_82/project_82.xpr
+INFO: [Project 1-313] Project file moved from '/home/skymark/FPGA/Vivado/2018.3/bin/project_82' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 781.062 ; gain = 199.750
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7B5AA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292AA7B5AA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7B5AA
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 13:28:08 2024] Launched synth_1...
+Run output will be captured here: E:/project_82/project_82.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 13:29:04 2024] Launched impl_1...
+Run output will be captured here: E:/project_82/project_82.runs/impl_1/runme.log

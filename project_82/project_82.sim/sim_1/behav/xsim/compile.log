@@ -1,0 +1,30 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sim_1/new/s82.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim8'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/catcher.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'catcher'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sim_1/new/s82.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim8'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/hxt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hextranslate'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.srcs/sim_1/new/s82.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim8'

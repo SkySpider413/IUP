@@ -1,0 +1,78 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Apr 22 15:02:31 2024
+| Host         : fpgalab111 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    26 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      8 |            2 |
+|     10 |            1 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              43 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              31 |            8 |
+| Yes          | No                    | No                     |              60 |           17 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              96 |           28 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+--------------------------------------+------------------------------------+------------------+----------------+
+|   Clock Signal   |             Enable Signal            |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++------------------+--------------------------------------+------------------------------------+------------------+----------------+
+|  clk_i_IBUF_BUFG | snd/txd_s                            |                                    |                1 |              1 |
+|  clk_i_IBUF_BUFG | dcd/ctc/start_frame_shift[0]_i_1_n_0 |                                    |                1 |              1 |
+|  clk_i_IBUF_BUFG | snd/temp_0                           |                                    |                1 |              8 |
+|  clk_i_IBUF_BUFG | dcd/ctc/E[0]                         |                                    |                3 |              8 |
+|  clk_i_IBUF_BUFG | dcd/ctc/frame_unstable[9]_i_1_n_0    |                                    |                3 |             10 |
+|  clk_i_IBUF_BUFG |                                      | dcd/ctc/counter[31]_i_1_n_0        |                8 |             31 |
+|  clk_i_IBUF_BUFG | snd/temp_0                           | snd/bits_sent[31]_i_1_n_0          |               13 |             32 |
+|  clk_i_IBUF_BUFG | dcd/ctc/frame_unstable[9]_i_1_n_0    | dcd/ctc/probe_cooldown[31]_i_1_n_0 |                8 |             32 |
+|  clk_i_IBUF_BUFG | dcd/ctc/in_frame_reg_n_0             | dcd/ctc/probe_cooldown[31]_i_1_n_0 |                7 |             32 |
+|  clk_i_IBUF_BUFG | snd/bit_cooldown[0]_i_1_n_0          |                                    |                8 |             32 |
+|  clk_i_IBUF_BUFG |                                      |                                    |               14 |             43 |
++------------------+--------------------------------------+------------------------------------+------------------+----------------+
+
+

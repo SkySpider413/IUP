@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3.1_AR72614 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:18:30 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Fri Apr 19 21:05:46 2024
+# Process ID: 703465
+# Current directory: /home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.sim/sim_1/behav/xsim/xsim.dir/sim8_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/skymark/FPGA/Vivado/2018.3/bin/project_82/project_82.sim/sim_1/behav/xsim/xsim.dir/sim8_behav/webtalk/xsim_webtalk.tcl -notrace
